@@ -1,7 +1,7 @@
 # Lesson 1, Operators
 #part 1
 
-print(2 + 2) #prints 2
+print(2 + 2) #prints 4
 print(2 - 2) #prints 0
 print(2 * 2) #prints 4
 print(2 / 2) #what will this print?

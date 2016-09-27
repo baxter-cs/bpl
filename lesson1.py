@@ -1,28 +1,25 @@
-# Welcome to Bad Python Lessons, Lesson 1.
-# All lessons are written so you can run them in an interpreter without any errors
-# We will not walk you through getting an interpreter running.
+# Lesson 1, Operators
+#part 1
 
+print(2 + 2) #prints 2
+print(2 - 2) #prints 0
+print(2 * 2) #prints 4
+print(2 / 2) #what will this print?
 
-# This version of Python is 3.5
+print(2 ** 2) #prints 4
+print(2 ** 3) #prints 8
+print(2 ** 4) #prints 16
+print(2 ** 5) #what will this print?
+print(3 ** 2) #what will this print?
 
-# First let's start with variables, in algebra you will know `x`.
-# So let's make a variable called x, and assign it a value of 5
+print(2 % 2) #prints 0
+print(3 % 2) #prints 1
+print(4 % 2) #prints 0
+print(7 % 2) #prints 1
 
-x = 5
-
-# In math, a plain equal sign (`=`) usually means is equivilant to, but at least in python you are assigning `x` to a value of `5`
-# not just stating that x is equivilant to 5, it is 5.
-
-# You may have an equation that looks like this
-# y = x * 2
-
-# We can accomplish that with this:
-
-def y (x):
-    return x * 2
-    
-# You use the def keyword to define a function, which will be reffered to as the word immedietly after the `def` keyword. In this case it is `y`
-# You then state the required inputs, in this case `x`, and then inside the function, which you can tell what is and isn't in the function
-# thanks to the whitespace, the function `returns` x multiplied by two.
-
-# so y(2) has a value/returns 4
+print(10 % 3) #prints 1
+print(11 % 3) #prints 2
+print(12 % 3) #prints 0
+print (13 % 3) #what will this print?
+print (13 % 2) #what will this print?
+print (16 % 5) #what will this print?
